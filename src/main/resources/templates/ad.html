@@ -57,32 +57,28 @@
     <div class="container"
          style="background: rgba(255,255,255,0.85);padding: 15px;margin-bottom: 20px;border-radius: 10px;">
         <div class="row" style="padding: 5px;margin-bottom: 5px;border-radius: 10px;">
-            <div class="col">
+            <div class="col-auto">
                 <p class="lead">Название объявления:&nbsp;<span th:text="${ad.name}"></span></p>
             </div>
-            <div class="col">
+            <div class="col-auto">
                 <p class="lead">Страна:&nbsp;<span th:text="${ad.description.origin}"></span></p>
             </div>
-            <div class="col">
+            <div class="col-auto">
                 <p class="lead">Город:&nbsp;<span th:text="${ad.description.citySale}"></span></p>
             </div>
-        </div>
-        <div class="row" style="padding: 5px;margin-bottom: 5px;border-radius: 10px;">
-            <div class="col">
+            <div class="col-auto">
                 <p class="lead">Категория:&nbsp;<span th:text="${ad.description.category.name}"></span></p>
             </div>
-            <div class="col">
+            <div class="col-auto">
                 <p class="lead">Регион:&nbsp;<span th:text="${ad.description.region.name}"></span></p>
             </div>
-            <div class="col">
+            <div class="col-auto">
                 <p class="lead">Тип:&nbsp;<span th:text="${ad.description.type.name}"></span></p>
             </div>
-        </div>
-        <div class="row" style="padding: 5px;margin-bottom: 5px;border-radius: 10px;">
-            <div class="col">
+            <div class="col-auto">
                 <p class="lead">Цена:&nbsp;<span th:text="${ad.price}"></span></p>
             </div>
-            <div class="col">
+            <div class="col-auto">
                 <p class="lead">Телефон номер:&nbsp;<span th:text="${ad.tel}"></span></p>
             </div>
         </div>
